@@ -1,5 +1,4 @@
 // Your code here
-
 function saturdayFun(activity="roller-skate") {
   return `This Saturday, I want to ${activity}!`;
 }
@@ -30,7 +29,7 @@ const Calculator = {
 }
 
 function actionApplyer(starting, arrOfFunc) {
-   for (let i = 0; i < arrOfFunc.length; i++) {
+  for (let i = 0; i < arrOfFunc.length; i++) {
     starting = arrOfFunc[i](starting);
   }
   return starting;
